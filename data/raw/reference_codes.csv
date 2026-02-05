@@ -1,0 +1,35 @@
+field,code,description,notes
+record_type,observation,Measured data values,From surveys operator reports infrastructure data
+record_type,event,Policies product launches market entries milestones,Categorical events that may affect indicators
+record_type,impact_link,Modeled relationships between events and indicators,Links events to their expected effects
+record_type,target,Official policy goals and targets,NFIS-II and other policy targets
+pillar,access,Account ownership and availability,Findex access dimension
+pillar,usage,Payment and transaction activity,Findex usage dimension
+pillar,infrastructure,Supporting infrastructure metrics,Enablers of financial inclusion
+category,policy,Government or regulatory policy,NFIS NBE directives
+category,product_launch,New financial service or product,Telebirr M-Pesa launches
+category,market_entry,New market participant,Safaricom entry
+category,infrastructure,Infrastructure development or milestone,Network expansion interoperability
+category,milestone,Significant market achievement,P2P surpassing ATM
+source_type,survey,Demand-side survey data,Global Findex FinScope
+source_type,operator,Data from financial service operators,Ethio Telecom Safaricom
+source_type,government,Government or regulatory data,NBE ECA ITU
+source_type,infrastructure,Infrastructure provider data,EthSwitch
+indicator_code,ACC_OWNERSHIP,Account ownership rate (% adults),Primary Findex access indicator
+indicator_code,ACC_MM_ACCOUNT,Mobile money account ownership (% adults),Mobile money specific access
+indicator_code,ACC_OWNERSHIP_M,Account ownership rate male (% adult males),Gender disaggregation male
+indicator_code,ACC_OWNERSHIP_F,Account ownership rate female (% adult females),Gender disaggregation female
+indicator_code,ACC_TELEBIRR_USERS,Telebirr registered users (count),Operator-reported registration
+indicator_code,ACC_MPESA_USERS,M-Pesa registered users (count),Operator-reported registration
+indicator_code,USG_DIGITAL_PAYMENT,Made or received digital payment (% adults),Primary Findex usage indicator
+indicator_code,USG_WAGE_ACCOUNT,Received wages into account (% adults),Formal sector digitization
+indicator_code,INF_4G_COVERAGE,4G population coverage (%),Mobile broadband infrastructure
+indicator_code,INF_MOBILE_PEN,Mobile phone penetration (% population),Basic connectivity
+confidence,high,High confidence in data accuracy,Official surveys verified sources
+confidence,medium,Medium confidence,Operator reports secondary sources
+confidence,low,Lower confidence,Estimates extrapolations
+impact_direction,positive,Event expected to increase indicator,Growth effect
+impact_direction,negative,Event expected to decrease indicator,Decline effect
+impact_magnitude,high,Large impact expected,>5pp effect typically
+impact_magnitude,medium,Moderate impact expected,2-5pp effect typically
+impact_magnitude,low,Small impact expected,<2pp effect typically
